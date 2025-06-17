@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Sistema de Ánalise Financeira</title>
+  <title>42 Route</title>
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -24,7 +24,7 @@
   <!-- /.login-logo -->
   <div class="card card-outline card-primary">
     <div class="card-header text-center">
-      <a href="#" class="h1"><b>S. Ánalise Financeira</b></a>
+      <a href="#" class="h1"><b>42 Route Login</b></a>
     </div>
     <div class="card-body">
       <p class="login-box-msg">Seja bem vindo</p>
@@ -51,7 +51,7 @@
           <!-- /.col -->
         </div>
         <div class="social-auth-links text-center mt-2 mb-3 " >
-          <button type="submit" name="btn-login" class="btn btn-block btn-primary" onclick="HideSpinner()">
+          <button type="submit" name="btn-login" class="btn btn-block btn-dark" onclick="HideSpinner()">
             Entrar 
            <!--  <span class="spinner-border spinner-border-sm" id="spinner" ></span> -->
           </button>

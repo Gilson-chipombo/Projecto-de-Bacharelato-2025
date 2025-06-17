@@ -23,13 +23,13 @@
               <div class="card">
                 <div class="card-header border-0">
                   <div class="d-flex justify-content-between">
-                    <h3 class="card-title">Rendimentos Totais - Resultado Operacional</h3>
+                    <h3 class="card-title">Usabilidade do Sistema</h3>
                   </div>
                 </div>
                 <div class="card-body">
 
                   <div class="position-relative mb-4">
-                    <canvas id="visitors-chart" height="290"></canvas>
+                    <canvas id="visitors-chart" height="20"></canvas>
                   </div>
 
                   <div class="d-flex flex-row justify-content-end">
@@ -54,21 +54,9 @@
                   </div>
                 </div>
                 <div class="card-body">
-                  <div class="d-flex">
-                    <p class="d-flex flex-column">
-                      <span class="text-bold text-lg">580,884,399.27 KZ</span>
-                      <span class="text-bold text-sm">+530,117,329,52</span>
-                      <span>Face ao Periódo anterior</span>
-                    </p>
-                    <p class="ml-auto d-flex flex-column text-right">
-                      <span class="text-bold text-lg">439,194,834.12 KZ</span>
-                      <span class="text-bold text-sm">+393,892,629.48</span>
-                      <span>Face ao Periódo anterior</span>
-    
-                    </p>
-                  </div>
+             
                   <div class="position-relative mb-4">
-                    <canvas id="sales-chart" height="200"></canvas>
+                    <canvas id="sales-chart" height="10"></canvas>
                   </div>
 
                   <div class="d-flex flex-row justify-content-end">

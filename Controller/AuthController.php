@@ -11,7 +11,7 @@ if (isset($_POST['btn-login'])) {
     if(mysqli_num_rows($result) == 1)
     {
         $_SESSION['logado'] = true;
-        header('Location: ../Views/index3.php');
+        header('Location: ../Views/dashboard.php');
     }else {
         echo "$username $password";
         header('Location: ../');
