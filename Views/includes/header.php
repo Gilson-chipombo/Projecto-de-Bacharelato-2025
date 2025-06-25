@@ -96,7 +96,7 @@
 
     <aside class="main-sidebar sidebar-dark-primary elevation-4">
       <a href="dashboard.php" class="brand-link">
-        <span class="brand-text font-weight-light">Sistema de ánalise financeira </span>
+        <span class="brand-text font-weight-light">SGR Esperança II </span>
       </a>
 
       <div class="sidebar">
@@ -124,7 +124,7 @@
                     <p>Usuários <i class="fas fa-angle-left right"></i></p>
                   </a>
                   <ul class="nav nav-treeview">
-                    <li class="nav-item"><a href="students.php" class="nav-link"><p><i class="nav-icon fas fa-graduation-cap"></i> Cadetes</p></a></li>
+                    <li class="nav-item"><a href="students.php" class="nav-link"><p><i class="nav-icon fas fa-graduation-cap"></i> Estudantes</p></a></li>
                     <li class="nav-item"><a href="drivers.php" class="nav-link"><p><i class="fa fa-id-card" aria-hidden="true"></i>   Motoristas</p></a></li>
                     <li class="nav-item"><a href="admin.php" class="nav-link"><p><i class="fa fa-unlock-alt" aria-hidden="true"></i>  Administradores </p></a></li>
                   </ul>

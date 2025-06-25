@@ -7,7 +7,7 @@ if (isset($_POST['btn-login'])) {
     $password = $_POST['password'];
 
     $password = md5($password);
-    $result = mysqli_query($connection, "SELECT * FROM usuarios WHERE username='$username' AND password ='$password'");
+    $result = mysqli_query($connection, "SELECT * FROM administrators WHERE username='$username' AND passwrd ='$password'");
     if(mysqli_num_rows($result) == 1)
     {
         $_SESSION['logado'] = true;

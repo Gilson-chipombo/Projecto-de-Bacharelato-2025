@@ -17,14 +17,14 @@
 <body class="hold-transition login-page">
   <style>
       body{
-        background-image: url('Views/dist/img/financas.jpg');
+        background-image: url('Views/dist/img/123.jpg');
       }  
   </style>
 <div class="login-box">
   <!-- /.login-logo -->
   <div class="card card-outline card-primary">
     <div class="card-header text-center">
-      <a href="#" class="h1"><b>42 Route Login</b></a>
+      <a href="#" class="h1"><b>SGRoute Login</b></a>
     </div>
     <div class="card-body">
       <p class="login-box-msg">Seja bem vindo</p>

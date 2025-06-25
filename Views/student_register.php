@@ -25,7 +25,7 @@
               </div>
             </div>
             <div class="card-body">
-                <form action="../Controller/StudentController.php" method="post">
+                <form action="../Controller/studentController.php" method="post">
 
                     <div class="form-group form-row">
                         <div class="col-md-5">

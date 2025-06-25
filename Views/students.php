@@ -29,238 +29,31 @@
                       <th>Paragem</th>
                     </tr>
                     </thead>
+                     <?php
+                        require_once "../Model/connectionBD.php";
+                        session_start();
+
+                        // Buscar todas as paragens cadastradas
+                        $query = "SELECT * FROM cadetes ORDER BY id DESC";
+                        $result = mysqli_query($connection, $query);
+                      ?>
                     <tbody>
-                      <tr>
-                        <td>Gilson Bravo F. Chipombo</td>
-                        <td>gbravo-f</td>
-                        <td>Cacuaco</td>
-                        <td>935626001</td>
-                        <td>Vila de Cacuaco</td>
-                        <td class="project-state">
-                        <div class="btn-group btn-group-sm">
-                              <a href="#" class="btn btn-info"><i class="fas fa-eye"></i></a>
-                              <a href="#" class="btn btn-dark"><i class="fas fa-edit"></i></a>
-                              <a href="#" class="btn btn-danger"><i class="fas fa-trash"></i></a>
-                          </div>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>Cesaltino Félix</td>
-                        <td>cefelix</td>
-                        <td>Viana</td>
-                        <td>936589475</td>
-                        <td>Vila da Gamek</td>
-                        <td class="project-state">
-                          <div class="btn-group btn-group-sm">
-                              <a href="#" class="btn btn-info"><i class="fas fa-eye"></i></a>
-                              <a href="#" class="btn btn-dark"><i class="fas fa-edit"></i></a>
-                              <a href="#" class="btn btn-danger"><i class="fas fa-trash"></i></a>
-                          </div>
-                        </td>
-                      </tr>
-
-                      <tr>
-                        <td>Flávio Malungo</td>
-                        <td>fmalungo</td>
-                        <td>Cacuaco</td>
-                        <td>936589471</td>
-                        <td>Ngoma</td>
-                        <td class="project-state">
-                        <div class="btn-group btn-group-sm">
-                              <a href="#" class="btn btn-info"><i class="fas fa-eye"></i></a>
-                              <a href="#" class="btn btn-dark"><i class="fas fa-edit"></i></a>
-                              <a href="#" class="btn btn-danger"><i class="fas fa-trash"></i></a>
-                          </div>
-                        </td>
-                      </tr>
-
-                      <tr>
-                        <td>Gildo Komba</td>
-                        <td>gkomba</td>
-                        <td>Talatona</td>
-                        <td>936589472</td>
-                        <td>Danjarre</td>
-                        <td class="project-state">
-                          <div class="btn-group btn-group-sm">
-                              <a href="#" class="btn btn-info"><i class="fas fa-eye"></i></a>
-                              <a href="#" class="btn btn-dark"><i class="fas fa-edit"></i></a>
-                              <a href="#" class="btn btn-danger"><i class="fas fa-trash"></i></a>
-                          </div>
-                        </td>
-                      </tr>
-
-                      <tr>
-                        <td>Sebastião Domingos</td>
-                        <td>sedomin</td>
-                        <td>Morro Bento</td>
-                        <td>936589477</td>
-                        <td>Vila da Gamek</td>
-                        <td class="project-state">
-                          <div class="btn-group btn-group-sm">
-                              <a href="#" class="btn btn-info"><i class="fas fa-eye"></i></a>
-                              <a href="#" class="btn btn-dark"><i class="fas fa-edit"></i></a>
-                              <a href="#" class="btn btn-danger"><i class="fas fa-trash"></i></a>
-                          </div>
-                        </td>
-                      </tr>
-
-                      <tr>
-                        <td>Emanuel Bunga Gaspar </td>
-                        <td>ebunga-g</td>
-                        <td>Dangereux</td>
-                        <td>936589475</td>
-                        <td>1º de Maio</td>
-                        <td class="project-state">
-                          <div class="btn-group btn-group-sm">
-                              <a href="#" class="btn btn-info"><i class="fas fa-eye"></i></a>
-                              <a href="#" class="btn btn-dark"><i class="fas fa-edit"></i></a>
-                              <a href="#" class="btn btn-danger"><i class="fas fa-trash"></i></a>
-                          </div>
-                        </td>
-                      </tr>
-
-                      <tr>
-                        <td>Fernanda Domingos Diando</td>
-                        <td>fdiando</td>
-                        <td>Maianga</td>
-                        <td>936589475</td>
-                        <td>1º de Maio</td>
-                        <td class="project-state">
-                          <div class="btn-group btn-group-sm">
-                              <a href="#" class="btn btn-info"><i class="fas fa-eye"></i></a>
-                              <a href="#" class="btn btn-dark"><i class="fas fa-edit"></i></a>
-                              <a href="#" class="btn btn-danger"><i class="fas fa-trash"></i></a>
-                          </div>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>Fernanda Domingos Diando</td>
-                        <td>fdiando</td>
-                        <td>Maianga</td>
-                        <td>936589475</td>
-                        <td>1º de Maio</td>
-                        <td class="project-state">
-                          <div class="btn-group btn-group-sm">
-                              <a href="#" class="btn btn-info"><i class="fas fa-eye"></i></a>
-                              <a href="#" class="btn btn-dark"><i class="fas fa-edit"></i></a>
-                              <a href="#" class="btn btn-danger"><i class="fas fa-trash"></i></a>
-                          </div>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>Fernanda Domingos Diando</td>
-                        <td>fdiando</td>
-                        <td>Maianga</td>
-                        <td>936589475</td>
-                        <td>1º de Maio</td>
-                        <td class="project-state">
-                          <div class="btn-group btn-group-sm">
-                              <a href="#" class="btn btn-info"><i class="fas fa-eye"></i></a>
-                              <a href="#" class="btn btn-dark"><i class="fas fa-edit"></i></a>
-                              <a href="#" class="btn btn-danger"><i class="fas fa-trash"></i></a>
-                          </div>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>Fernanda Domingos Diando</td>
-                        <td>fdiando</td>
-                        <td>Maianga</td>
-                        <td>936589475</td>
-                        <td>1º de Maio</td>
-                        <td class="project-state">
-                          <div class="btn-group btn-group-sm">
-                              <a href="#" class="btn btn-info"><i class="fas fa-eye"></i></a>
-                              <a href="#" class="btn btn-dark"><i class="fas fa-edit"></i></a>
-                              <a href="#" class="btn btn-danger"><i class="fas fa-trash"></i></a>
-                          </div>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>Fernanda Domingos Diando</td>
-                        <td>fdiando</td>
-                        <td>Maianga</td>
-                        <td>936589475</td>
-                        <td>1º de Maio</td>
-                        <td class="project-state">
-                          <div class="btn-group btn-group-sm">
-                              <a href="#" class="btn btn-info"><i class="fas fa-eye"></i></a>
-                              <a href="#" class="btn btn-dark"><i class="fas fa-edit"></i></a>
-                              <a href="#" class="btn btn-danger"><i class="fas fa-trash"></i></a>
-                          </div>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>Fernanda Domingos Diando</td>
-                        <td>fdiando</td>
-                        <td>Maianga</td>
-                        <td>936589475</td>
-                        <td>1º de Maio</td>
-                        <td class="project-state">
-                          <div class="btn-group btn-group-sm">
-                              <a href="#" class="btn btn-info"><i class="fas fa-eye"></i></a>
-                              <a href="#" class="btn btn-dark"><i class="fas fa-edit"></i></a>
-                              <a href="#" class="btn btn-danger"><i class="fas fa-trash"></i></a>
-                          </div>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>Fernanda Domingos Diando</td>
-                        <td>fdiando</td>
-                        <td>Maianga</td>
-                        <td>936589475</td>
-                        <td>1º de Maio</td>
-                        <td class="project-state">
-                          <div class="btn-group btn-group-sm">
-                              <a href="#" class="btn btn-info"><i class="fas fa-eye"></i></a>
-                              <a href="#" class="btn btn-dark"><i class="fas fa-edit"></i></a>
-                              <a href="#" class="btn btn-danger"><i class="fas fa-trash"></i></a>
-                          </div>
-                        </td>
-                      </tr>
-
-                      <tr>
-                        <td>Fernanda Domingos Diando</td>
-                        <td>fdiando</td>
-                        <td>Maianga</td>
-                        <td>936589475</td>
-                        <td>1º de Maio</td>
-                        <td class="project-state">
-                          <div class="btn-group btn-group-sm">
-                              <a href="#" class="btn btn-info"><i class="fas fa-eye"></i></a>
-                              <a href="#" class="btn btn-dark"><i class="fas fa-edit"></i></a>
-                              <a href="#" class="btn btn-danger"><i class="fas fa-trash"></i></a>
-                          </div>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>Fernanda Domingos Diando</td>
-                        <td>fdiando</td>
-                        <td>Maianga</td>
-                        <td>936589475</td>
-                        <td>1º de Maio</td>
-                        <td class="project-state">
-                          <div class="btn-group btn-group-sm">
-                              <a href="#" class="btn btn-info"><i class="fas fa-eye"></i></a>
-                              <a href="#" class="btn btn-dark"><i class="fas fa-edit"></i></a>
-                              <a href="#" class="btn btn-danger"><i class="fas fa-trash"></i></a>
-                          </div>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>Fernanda Domingos Diando</td>
-                        <td>fdiando</td>
-                        <td>Maianga</td>
-                        <td>936589475</td>
-                        <td>1º de Maio</td>
-                        <td class="project-state">
-                          <div class="btn-group btn-group-sm">
-                              <a href="#" class="btn btn-info"><i class="fas fa-eye"></i></a>
-                              <a href="#" class="btn btn-dark"><i class="fas fa-edit"></i></a>
-                              <a href="#" class="btn btn-danger"><i class="fas fa-trash"></i></a>
-                          </div>
-                        </td>
-                      </tr>  
-                    </tbody>
+                      <?php while ($row = mysqli_fetch_assoc($result)): ?>
+                        <tr>
+                          <td><?= htmlspecialchars($row['full_name']) ?></td>
+                          <td><?= htmlspecialchars($row['username']) ?></td>
+                          <td><?= htmlspecialchars($row['city']) ?></td>
+                          <td><?= htmlspecialchars($row['phone']) ?></td>
+                          <td>
+                              <div class="btn-group btn-group-sm">
+                                        <a href="#" class="btn btn-info"><i class="fas fa-eye"></i></a>
+                                        <a href="#" class="btn btn-dark"><i class="fas fa-edit"></i></a>
+                                        <a href="#" class="btn btn-danger"><i class="fas fa-trash"></i></a>
+                                    </div>
+                          </td>
+                        </tr>
+                      <?php endwhile; ?>
+                  </tbody>
                     <tfoot>
                     <tr>
                         <th>Nome completo</th>
